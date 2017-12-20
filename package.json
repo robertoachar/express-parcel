@@ -4,12 +4,12 @@
   "description": "A playground for Express with Parcel.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/express-parcel#readme",
-  "keywords": ["node"],
+  "keywords": ["node", "express", "pug"],
   "main": "src/index.js",
   "files": ["src"],
   "scripts": {
     "lint": "eslint src/**/*.js",
-    "start": "node src/index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,15 @@
   "bugs": {
     "url": "https://github.com/robertoachar/express-parcel/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "4.16.2",
+    "pug": "2.0.0-rc.4"
+  },
   "devDependencies": {
     "eslint": "4.13.1",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-prettier": "2.4.0",
+    "nodemon": "1.13.3",
     "prettier": "1.9.2"
   },
   "license": "MIT"
