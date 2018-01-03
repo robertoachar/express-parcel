@@ -20,6 +20,7 @@
     "url": "https://github.com/robertoachar/express-parcel/issues"
   },
   "dependencies": {
+    "bootstrap": "3.3.7",
     "express": "4.16.2",
     "jquery": "3.2.1",
     "pug": "2.0.0-rc.4"
